@@ -10,7 +10,7 @@ otp=list(str(otp))
 otpnew=""
 
 for i in range(6):
-    otpnew.append(random.choice(otp)(
+    otpnew.append(random.choice(otp)
 
 time=datetime.datetime.now().hour
 
