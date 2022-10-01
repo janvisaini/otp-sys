@@ -2,16 +2,7 @@ import random
 
 import datetime,os
 
-os.system("clear")
-
-otp=int(random.randint(1000000,999999999))
-
-otp=list(str(otp))
-otpnew=""
-
-for i in range(6):
-    #adding the numbers
-    otpnew.append(random.choice(otp)
+otp = int(random.randint(1000000,999999999))
 
 time=datetime.datetime.now().hour
 
@@ -27,4 +18,4 @@ def greet():
         print('Good evening!')
 
 
-print(f"{great} sir ! Please don't share this OTP with anyone\nYour OTP is {otpnew}\nI repet your OTP is {otpnew}\n Good-Bye")
+print(f"{great} sir ! Please don't share this OTP with anyone\nYour OTP is {otp}\nI repet your OTP is {otp}\n Good-Bye")
